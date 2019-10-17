@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    width: auto;
+    height: auto;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+.wrapper {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.columns {
+    margin: 0px !important;
+}
+
+a {
+    color: #00b0cd;
+}
+
+a:hover {
+    color: #00b0cd;
+    text-decoration: underline;
+}
+
+.content h1 {
+    font-size: 46px;
+}
+
+.post-comment {
+    opacity: 0.7;
+}
+
+.subtitle a, .subtitle a:hover, .title a, .title a:hover {
+    text-decoration: none;
+}
+
+.welcome-cont {
+    background-color: #fff;
+}
+
+.tag:not(body) {
+    background-color: #af0f0f;
+    color: white;
+}
+
+.date {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.log-icon {
+    margin-left: 5px;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #eee;
+    height: 1px;
+}
+
+ul.social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul.social>li {
+    display: inline-block;
+}
+
+ul.social>li>a {
+    display: inline-block;
+    color: #000;
+    padding: 2px;
+    transition: color .3s;
+}
+
+ul.social>li>a:hover {
+    color: #00b0cd;
+    transition: color .3s;
+}
+
+.icon {
+    font-size: 35px;
+    height: auto;
+}
+
+.welcome {
+    color: #fff;
+}
+
+.content ul {
+    margin-left: 0px;
+}
+
+figure img {
+    object-fit: cover;
+}
+
+.gray {
+    color: #4a4a4a;
+}
+
+li {
+    list-style-type: none;
+}
+
+.welcome-text {
+    color: #fff;
+    padding-top: 160px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.team-link:hover {
+    text-decoration: none;
+}
+
+.team-name {
+    transition: color .3s;
+}
+
+.team-name:hover {
+    color: #00b0cd;
+    transition: color .3s;
+    text-decoration: none !important;
+}
+
+/***********
+NAVBAR BEGINS
+***********/
+.navbar {
+    width: 100%;
+    height: 46px;
+    color: #222;
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 2px 0 rgba(50, 50, 50, .4);
+    font-size: 14px;
+    position: fixed;
+    min-height: 1rem !important;
+}
+
+.navbar-item {
+    line-height: 46px;
+    vertical-align: middle;
+    color: #353535;
+    font-weight: 400;
+    padding: 0 11px;
+    border-right: 1px solid rgba(204, 204, 204, .65);
+    text-align: center;
+    transition: .2s ease;
+}
+
+.navbar a {
+    color: #222;
+    text-decoration: none;
+}
+
+a.navbar-item:hover {
+    color: #222;
+    background-color: #efefef;
+}
+
+a.navbar-item.logo:hover {
+    background-color: #f5f5f5 !important;
+}
+
+.active {
+    color: white;
+    background-color: #111111;
+}
+
+.list {
+    border-radius: 0px;
+}
+
+.list-item {
+    color: #111;
+    transition: color .3s;
+}
+
+.list-title:hover {
+    color: #4a4a4a !important;
+    transition: color .3s;
+}
+
+.list-item:hover {
+    text-decoration: none;
+    color: #00b0cd;
+}
+
+/***********
+NAVBAR ENDS
+***********/
+/***********
+NEWS BEGINS
+***********/
+.news-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 900;
+    line-height: 1;
+    color: #111;
+    font-size: 26px;
+}
+
+.news-title a {
+    color: #111;
+    padding: 10px 0;
+    font-family: Titillium Web, sans-serif;
+    transition: color .3s;
+}
+
+.news-title a:hover {
+    color: #00b0cd;
+    transition: color .3s;
+    text-decoration: none;
+}
+
+.news-date {
+    font-size: 13px;
+    color: #888;
+}
+
+.news-content {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.news-author {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/***********
+NEWS ENDS
+***********/
+.user-title {
+    color: #fff;
+}
+
+.user-rank {
+    color: #fff;
+}
+
+.tile {
+    color: #fff;
+    text-shadow: 1px 2px 3px #000;
+    font-size: 1.3rem;
+}
+
+.tile strong {
+    color: #fff;
+}
+
+.button {
+    border-radius: 3px;
+    border: none;
+    background-color: #363636;
+    color: white;
+}
+
+.button:hover {
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.button:focus {
+    color: white;
+}
+
+.card-content.login {
+    background-color: white;
+    border: none;
+    padding: 20px;
+}
+
+.label {
+    font-weight: lighter;
+}
+
+/* PROFILE STYLING */
+.stat-val {
+    font-size: 2.8em;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.stat-key {
+    font-size: 1.4em;
+    font-weight: 200
+}
+
+.section.profile-heading .column.is-2-tablet.has-text-centered+.has-text-centered {
+    border-left: 1px dotted rgba(0, 0, 0, .2);
+}
+
+.container.profile {
+    margin-top: 1%;
+}
+
+.control.is-pulled-left span.select {
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.modal-card .content h1 {
+    padding: 40px 10px 10px;
+    border-bottom: 1px solid #dadada
+}
+
+.container.profile .profile-options .tabs ul li.link a {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #F1F1F1;
+}
+
+/* FOOTER STYLING */
+.footer {
+    background-color: #0e0f0f;
+    color: white;
+    padding: 50px;
+}
+
+.footer strong {
+    color: white;
+}
